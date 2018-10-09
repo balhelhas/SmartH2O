@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="trigger-rules">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="triggers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="trigger" type ="conditions-type">
+                
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="type" type="parameter-type" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="conditions-type">
+    <xs:sequence>
+      <xs:choice>
+        <xs:element minOccurs="0" name="greater-than" type="one-value-type">
+        </xs:element>
+        <xs:element minOccurs="0" name="equal-to" type="one-value-type">
+        </xs:element>
+        <xs:element minOccurs="0" name="between" type="two-values-type">
+        </xs:element>
+        <xs:element minOccurs="0" name="less-than" type="one-value-type">
+        </xs:element>
+      </xs:choice>
+      <xs:element name="message" type="xs:string"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="status" type="status-type" use="required" />
+    <!--<xs:attribute name="condition" type="xs:string" use="optional" />-->
+  </xs:complexType>
+
+  <xs:complexType name="one-value-type">
+    <xs:sequence>
+      <xs:element name="value" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <!--<xs:complexType name="two-values-type">
+    <xs:sequence>
+      <xs:element name="min-value" type="xs:float" />
+      <xs:element name="max-value" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>-->
+
+  <xs:complexType name="two-values-type">
+    <xs:sequence>
+      <xs:element name="values">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="min-value" type="xs:float" />
+            <xs:element name="max-value" type="xs:float" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType	name="status-type">
+    <xs:restriction	base="xs:string">
+      <xs:enumeration	value="enabled"/>
+      <xs:enumeration	value="disabled"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType	name="parameter-type">
+    <xs:restriction	base="xs:string">
+      <xs:enumeration	value="PH"/>
+      <xs:enumeration	value="NH3"/>
+      <xs:enumeration	value="CI2"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

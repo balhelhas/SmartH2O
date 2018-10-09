@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\obj\Debug\SmartH2O_SeeApp.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\obj\Debug\SmartH2O_SeeApp.SeeApp.resources
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\obj\Debug\SmartH2O_SeeApp.Properties.Resources.resources
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\obj\Debug\SmartH2O_SeeApp.SensorStatisticsByHour.resources
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\obj\Debug\SmartH2O_SeeApp.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\bin\Debug\SmartH2O_SeeApp.exe.config
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\bin\Debug\SmartH2O_SeeApp.exe
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\bin\Debug\SmartH2O_SeeApp.pdb
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\obj\Debug\SmartH2O_SeeApp.SensorStatisticsByDay.resources
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\obj\Debug\SmartH2O_SeeApp.SensorStatisticsByWeek.resources
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\obj\Debug\SmartH2O_SeeApp.exe
+C:\Users\user\Desktop\is-project\SmartH2O_SeeApp\obj\Debug\SmartH2O_SeeApp.pdb

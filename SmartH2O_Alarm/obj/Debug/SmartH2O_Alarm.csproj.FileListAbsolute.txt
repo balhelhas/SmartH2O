@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\bin\Debug\SmartH2O_Alarm.exe.config
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\bin\Debug\SmartH2O_Alarm.exe
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\bin\Debug\SmartH2O_Alarm.pdb
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\bin\Debug\M2Mqtt.Net.dll
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.Properties.Resources.resources
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.exe
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.pdb
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\is-project\SmartH2O_Alarm\obj\Debug\SmartH2O_Alarm.AlarmApp.resources

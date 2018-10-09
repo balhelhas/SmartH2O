@@ -1,0 +1,770 @@
+<alarm-logs>
+  <alarm-date date="2016-12-17">
+    <alarm-sensor-type type="PH" />
+    <alarm-sensor-type type="NH3">
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.74</sensor-value>
+        <alarm-time>20:01:20</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.76</sensor-value>
+        <alarm-time>20:01:35</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.44</sensor-value>
+        <alarm-time>20:01:50</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.53</sensor-value>
+        <alarm-time>20:02:05</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.18</sensor-value>
+        <alarm-time>20:02:20</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.57</sensor-value>
+        <alarm-time>20:02:35</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.16</sensor-value>
+        <alarm-time>20:02:50</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.32</sensor-value>
+        <alarm-time>20:03:05</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.37</sensor-value>
+        <alarm-time>20:03:20</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.84</sensor-value>
+        <alarm-time>20:03:35</alarm-time>
+      </alarm-log>
+    </alarm-sensor-type>
+    <alarm-sensor-type type="CI2">
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>8.1</sensor-value>
+        <alarm-time>20:01:25</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>11.3</sensor-value>
+        <alarm-time>20:01:40</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>10.8</sensor-value>
+        <alarm-time>20:01:55</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>11.2</sensor-value>
+        <alarm-time>20:02:10</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>7.8</sensor-value>
+        <alarm-time>20:02:25</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>10.6</sensor-value>
+        <alarm-time>20:02:40</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>9.1</sensor-value>
+        <alarm-time>20:02:55</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>9.5</sensor-value>
+        <alarm-time>20:03:10</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>11.1</sensor-value>
+        <alarm-time>20:03:25</alarm-time>
+      </alarm-log>
+    </alarm-sensor-type>
+  </alarm-date>
+  <alarm-date date="2016-12-19">
+    <alarm-sensor-type type="PH" />
+    <alarm-sensor-type type="NH3">
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.61</sensor-value>
+        <alarm-time>20:25:27</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.87</sensor-value>
+        <alarm-time>20:25:42</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.37</sensor-value>
+        <alarm-time>20:25:57</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>5</trigger-value>
+          <message>The NH3 value is less than 5</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.31</sensor-value>
+        <alarm-time>20:26:12</alarm-time>
+      </alarm-log>
+    </alarm-sensor-type>
+    <alarm-sensor-type type="CI2">
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>10.8</sensor-value>
+        <alarm-time>20:25:32</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>8.4</sensor-value>
+        <alarm-time>20:25:47</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>7.3</sensor-value>
+        <alarm-time>20:26:02</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>10.3</sensor-value>
+        <alarm-time>20:26:17</alarm-time>
+      </alarm-log>
+    </alarm-sensor-type>
+  </alarm-date>
+  <alarm-date date="2016-12-20">
+    <alarm-sensor-type type="PH" />
+    <alarm-sensor-type type="NH3">
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.18</sensor-value>
+        <alarm-time>22:39:13</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.18</sensor-value>
+        <alarm-time>22:39:13</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.58</sensor-value>
+        <alarm-time>22:39:27</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.58</sensor-value>
+        <alarm-time>22:39:27</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.37</sensor-value>
+        <alarm-time>22:39:43</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.37</sensor-value>
+        <alarm-time>22:39:43</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.94</sensor-value>
+        <alarm-time>22:41:04</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.94</sensor-value>
+        <alarm-time>22:41:04</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.25</sensor-value>
+        <alarm-time>22:41:19</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.25</sensor-value>
+        <alarm-time>22:41:19</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.20</sensor-value>
+        <alarm-time>22:46:23</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.20</sensor-value>
+        <alarm-time>22:46:23</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.95</sensor-value>
+        <alarm-time>22:46:39</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.95</sensor-value>
+        <alarm-time>22:46:39</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.70</sensor-value>
+        <alarm-time>22:46:58</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.70</sensor-value>
+        <alarm-time>22:46:58</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.35</sensor-value>
+        <alarm-time>22:47:19</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.35</sensor-value>
+        <alarm-time>22:47:19</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.26</sensor-value>
+        <alarm-time>22:52:34</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.26</sensor-value>
+        <alarm-time>22:52:34</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.10</sensor-value>
+        <alarm-time>22:53:06</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.10</sensor-value>
+        <alarm-time>22:53:06</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.25</sensor-value>
+        <alarm-time>22:53:36</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.25</sensor-value>
+        <alarm-time>22:53:36</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.12</sensor-value>
+        <alarm-time>22:53:53</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.12</sensor-value>
+        <alarm-time>22:53:53</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.13</sensor-value>
+        <alarm-time>22:54:11</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.13</sensor-value>
+        <alarm-time>22:54:11</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.46</sensor-value>
+        <alarm-time>22:54:26</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.46</sensor-value>
+        <alarm-time>22:54:26</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.87</sensor-value>
+        <alarm-time>22:54:40</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.87</sensor-value>
+        <alarm-time>22:54:40</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.86</sensor-value>
+        <alarm-time>22:54:56</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.86</sensor-value>
+        <alarm-time>22:54:56</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-less-than>
+          <trigger-value>6</trigger-value>
+          <message>The NH3 value is less than 6</message>
+        </trigger-less-than>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.40</sensor-value>
+        <alarm-time>22:55:10</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-between>
+          <trigger-min-value>0</trigger-min-value>
+          <trigger-max-value>100</trigger-max-value>
+          <message>The NH3 value is between 0 and 100</message>
+        </trigger-between>
+        <sensor-id>2</sensor-id>
+        <sensor-value>1.40</sensor-value>
+        <alarm-time>22:55:10</alarm-time>
+      </alarm-log>
+    </alarm-sensor-type>
+    <alarm-sensor-type type="CI2">
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>7.1</sensor-value>
+        <alarm-time>22:39:02</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>7.4</sensor-value>
+        <alarm-time>22:39:18</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>8.3</sensor-value>
+        <alarm-time>22:39:33</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>11.8</sensor-value>
+        <alarm-time>22:41:09</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>9.5</sensor-value>
+        <alarm-time>22:41:24</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>9.6</sensor-value>
+        <alarm-time>22:46:28</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>8.8</sensor-value>
+        <alarm-time>22:46:45</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>8.2</sensor-value>
+        <alarm-time>22:47:04</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>9.6</sensor-value>
+        <alarm-time>22:47:25</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>11.6</sensor-value>
+        <alarm-time>22:52:40</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>7.8</sensor-value>
+        <alarm-time>22:52:56</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>7.8</sensor-value>
+        <alarm-time>22:53:42</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>8.8</sensor-value>
+        <alarm-time>22:54:00</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>7.8</sensor-value>
+        <alarm-time>22:54:16</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>8.0</sensor-value>
+        <alarm-time>22:54:30</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>9.5</sensor-value>
+        <alarm-time>22:54:45</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>10.8</sensor-value>
+        <alarm-time>22:55:01</alarm-time>
+      </alarm-log>
+      <alarm-log>
+        <trigger-greater-than>
+          <trigger-value>5</trigger-value>
+          <message>The CI2 value is greater than 5</message>
+        </trigger-greater-than>
+        <sensor-id>3</sensor-id>
+        <sensor-value>9.2</sensor-value>
+        <alarm-time>22:55:15</alarm-time>
+      </alarm-log>
+    </alarm-sensor-type>
+  </alarm-date>
+</alarm-logs>

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SmartH2O_Service.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="param_log_filename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">param-data.xml</Value>
+    </Setting>
+    <Setting Name="alarm_log_filename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">alarm-data.xml</Value>
+    </Setting>
+    <Setting Name="param_log_schema_filename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">param-data.xsd</Value>
+    </Setting>
+    <Setting Name="alarm_log_schema_filename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">alarm-data.xsd</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

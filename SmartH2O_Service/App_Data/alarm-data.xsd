@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="alarm-logs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="alarm-date">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="alarm-sensor-type">
+                <xs:complexType>
+                  <xs:sequence minOccurs="0">
+                    <xs:element maxOccurs="unbounded" name="alarm-log" type="alarm-log-type">
+                      
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="type" type="parameter-type" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="date" type="xs:date" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="alarm-log-type">
+    <xs:sequence>
+      <xs:choice>
+        <xs:element minOccurs="0" name="trigger-greater-than" type="one-value-type">
+        </xs:element>
+        <xs:element minOccurs="0" name="trigger-equal-to" type="one-value-type">
+        </xs:element>
+        <xs:element minOccurs="0" name="trigger-between" type="two-values-type">
+        </xs:element>
+        <xs:element minOccurs="0" name="trigger-less-than" type="one-value-type">
+        </xs:element>
+      </xs:choice>
+      <xs:element name="sensor-id" type="xs:int" />
+      <xs:element name="sensor-value" type="xs:decimal" />
+      <xs:element name="alarm-time" type="xs:time" />
+    </xs:sequence>
+    
+    <!--<xs:attribute name="condition" type="xs:string" use="optional" />-->
+  </xs:complexType> 
+ 
+  <xs:complexType name="one-value-type">
+    <xs:sequence>
+      <xs:element name="trigger-value" type="xs:decimal" />
+      <xs:element name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="two-values-type">
+    <xs:sequence>
+      <xs:element name="trigger-min-value" type="xs:decimal" />
+      <xs:element name="trigger-max-value" type="xs:decimal" />
+      <xs:element name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <!--<xs:complexType name="sensor-type">
+    <xs:sequence>
+      
+      <xs:element name="sensor-id" type="xs:int" />
+      <xs:element name="sensor-value" type="xs:float" />
+      <xs:element name="alarm-time" type="xs:time" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="alarm-log">
+    <xs:sequence>
+      <xs:element name="sensor-id" type="xs:int" />
+      <xs:element name="sensor-value" type="xs:float" />
+      <xs:element name="alarm-time" type="sensor-type" />
+    </xs:sequence>
+  </xs:complexType>-->
+
+  <xs:simpleType	name="parameter-type">
+    <xs:restriction	base="xs:string">
+      <xs:enumeration	value="PH"/>
+      <xs:enumeration	value="NH3"/>
+      <xs:enumeration	value="CI2"/>
+    </xs:restriction>
+  </xs:simpleType>
+ 
+
+</xs:schema>

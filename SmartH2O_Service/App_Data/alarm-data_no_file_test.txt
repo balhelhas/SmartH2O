@@ -1,0 +1,73 @@
+<param-logs>
+  <param-date date="2016-12-18">
+    <param-type type="PH">
+      <param-log>
+        <id>1</id>
+        <value>6.5</value>
+        <time>22:29:39</time>
+      </param-log>
+      <param-log>
+        <id>1</id>
+        <value>5.3</value>
+        <time>22:29:54</time>
+      </param-log>
+      <param-log>
+        <id>1</id>
+        <value>6.0</value>
+        <time>22:30:09</time>
+      </param-log>
+    </param-type>
+    <param-type type="NH3">
+      <param-log>
+        <id>2</id>
+        <value>1.89</value>
+        <time>22:29:44</time>
+      </param-log>
+      <param-log>
+        <id>2</id>
+        <value>1.4</value>
+        <time>22:29:59</time>
+      </param-log>
+      <param-log>
+        <id>2</id>
+        <value>1.81</value>
+        <time>22:30:14</time>
+      </param-log>
+    </param-type>
+    <param-type type="CI2">
+      <param-log>
+        <id>3</id>
+        <value>8.2</value>
+        <time>22:29:49</time>
+      </param-log>
+      <param-log>
+        <id>3</id>
+        <value>8.0</value>
+        <time>22:30:04</time>
+      </param-log>
+    </param-type>
+  </param-date>
+  <param-date date="2016-12-19">
+    <param-type type="PH">
+      <param-log>
+        <id>1</id>
+        <value>5.3</value>
+        <time>14:29:30</time>
+      </param-log>
+    </param-type>
+    <param-type type="NH3">
+      <param-log>
+        <id>2</id>
+        <value>1.82</value>
+        <time>14:29:35</time>
+      </param-log>
+    </param-type>
+    <param-type type="CI2">
+      <param-log>
+        <id>3</id>
+        <value>10.6</value>
+        <time>14:32:48</time>
+      </param-log>
+    </param-type>
+  </param-date>
+</param-logs>

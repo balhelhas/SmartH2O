@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\is-project\SmartH2O_DU\bin\Debug\SmartH2O_DU.exe.config
+C:\Users\user\Desktop\is-project\SmartH2O_DU\bin\Debug\SmartH2O_DU.exe
+C:\Users\user\Desktop\is-project\SmartH2O_DU\bin\Debug\SmartH2O_DU.pdb
+C:\Users\user\Desktop\is-project\SmartH2O_DU\bin\Debug\M2Mqtt.Net.dll
+C:\Users\user\Desktop\is-project\SmartH2O_DU\bin\Debug\SensorNodeDll.dll
+C:\Users\user\Desktop\is-project\SmartH2O_DU\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\user\Desktop\is-project\SmartH2O_DU\obj\Debug\SmartH2O_DU.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\is-project\SmartH2O_DU\obj\Debug\SmartH2O_DU.exe
+C:\Users\user\Desktop\is-project\SmartH2O_DU\obj\Debug\SmartH2O_DU.pdb

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WebService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:61655/WebService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:61655/WebService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:61655/WebService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="WebService_Interface_WriteToAlarmsLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:WriteToAlarmsLog" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_WriteToAlarmsLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WriteToAlarmsLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_WriteToSensorsLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:WriteToSensorsLog" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_WriteToSensorsLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WriteToSensorsLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetHourlyInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHourlyInformation" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetHourlyInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHourlyInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetDailyInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDailyInformation" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetDailyInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDailyInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetWeeklyInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklyInformation" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetWeeklyInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWeeklyInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetDailyAlarms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDailyAlarms" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetDailyAlarms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDailyAlarmsResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetAlarmsByDates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlarmsByDates" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetAlarmsByDates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlarmsByDatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetParamLogDates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetParamLogDates" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetParamLogDates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetParamLogDatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetAlarmLogDates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlarmLogDates" />
+  </wsdl:message>
+  <wsdl:message name="WebService_Interface_GetAlarmLogDates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlarmLogDatesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService_Interface">
+    <wsdl:operation name="WriteToAlarmsLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/WebService_Interface/WriteToAlarmsLog" message="tns:WebService_Interface_WriteToAlarmsLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/WebService_Interface/WriteToAlarmsLogResponse" message="tns:WebService_Interface_WriteToAlarmsLog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteToSensorsLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/WebService_Interface/WriteToSensorsLog" message="tns:WebService_Interface_WriteToSensorsLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/WebService_Interface/WriteToSensorsLogResponse" message="tns:WebService_Interface_WriteToSensorsLog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHourlyInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/WebService_Interface/GetHourlyInformation" message="tns:WebService_Interface_GetHourlyInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/WebService_Interface/GetHourlyInformationResponse" message="tns:WebService_Interface_GetHourlyInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDailyInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/WebService_Interface/GetDailyInformation" message="tns:WebService_Interface_GetDailyInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/WebService_Interface/GetDailyInformationResponse" message="tns:WebService_Interface_GetDailyInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklyInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/WebService_Interface/GetWeeklyInformation" message="tns:WebService_Interface_GetWeeklyInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/WebService_Interface/GetWeeklyInformationResponse" message="tns:WebService_Interface_GetWeeklyInformation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDailyAlarms">
+      <wsdl:input wsaw:Action="http://tempuri.org/WebService_Interface/GetDailyAlarms" message="tns:WebService_Interface_GetDailyAlarms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/WebService_Interface/GetDailyAlarmsResponse" message="tns:WebService_Interface_GetDailyAlarms_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlarmsByDates">
+      <wsdl:input wsaw:Action="http://tempuri.org/WebService_Interface/GetAlarmsByDates" message="tns:WebService_Interface_GetAlarmsByDates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/WebService_Interface/GetAlarmsByDatesResponse" message="tns:WebService_Interface_GetAlarmsByDates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParamLogDates">
+      <wsdl:input wsaw:Action="http://tempuri.org/WebService_Interface/GetParamLogDates" message="tns:WebService_Interface_GetParamLogDates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/WebService_Interface/GetParamLogDatesResponse" message="tns:WebService_Interface_GetParamLogDates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlarmLogDates">
+      <wsdl:input wsaw:Action="http://tempuri.org/WebService_Interface/GetAlarmLogDates" message="tns:WebService_Interface_GetAlarmLogDates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/WebService_Interface/GetAlarmLogDatesResponse" message="tns:WebService_Interface_GetAlarmLogDates_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_WebService_Interface" type="tns:WebService_Interface">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WriteToAlarmsLog">
+      <soap:operation soapAction="http://tempuri.org/WebService_Interface/WriteToAlarmsLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteToSensorsLog">
+      <soap:operation soapAction="http://tempuri.org/WebService_Interface/WriteToSensorsLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHourlyInformation">
+      <soap:operation soapAction="http://tempuri.org/WebService_Interface/GetHourlyInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDailyInformation">
+      <soap:operation soapAction="http://tempuri.org/WebService_Interface/GetDailyInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWeeklyInformation">
+      <soap:operation soapAction="http://tempuri.org/WebService_Interface/GetWeeklyInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDailyAlarms">
+      <soap:operation soapAction="http://tempuri.org/WebService_Interface/GetDailyAlarms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlarmsByDates">
+      <soap:operation soapAction="http://tempuri.org/WebService_Interface/GetAlarmsByDates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParamLogDates">
+      <soap:operation soapAction="http://tempuri.org/WebService_Interface/GetParamLogDates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlarmLogDates">
+      <soap:operation soapAction="http://tempuri.org/WebService_Interface/GetAlarmLogDates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="BasicHttpBinding_WebService_Interface" binding="tns:BasicHttpBinding_WebService_Interface">
+      <soap:address location="http://localhost:61655/WebService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\is-project\SmartH2O_DLog\bin\Debug\SmartH2O_DLog.exe.config
+C:\Users\user\Desktop\is-project\SmartH2O_DLog\bin\Debug\SmartH2O_DLog.exe
+C:\Users\user\Desktop\is-project\SmartH2O_DLog\bin\Debug\SmartH2O_DLog.pdb
+C:\Users\user\Desktop\is-project\SmartH2O_DLog\bin\Debug\M2Mqtt.Net.dll
+C:\Users\user\Desktop\is-project\SmartH2O_DLog\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\user\Desktop\is-project\SmartH2O_DLog\obj\Debug\SmartH2O_DLog.exe
+C:\Users\user\Desktop\is-project\SmartH2O_DLog\obj\Debug\SmartH2O_DLog.pdb
+C:\Users\user\Desktop\is-project\SmartH2O_DLog\obj\Debug\SmartH2O_DLog.csprojResolveAssemblyReference.cache

@@ -1,0 +1,46 @@
+﻿<trigger-rules>
+  <triggers type="NH3">
+    <trigger status="enabled" condition="less-than">
+      <less-than>
+        <value>6</value>
+      </less-than>
+      <message>The NH3 value is less than 6</message>
+    </trigger>
+    <trigger status="enabled" condition="between">
+      <between>
+        <values>
+          <min-value>6</min-value>
+          <max-value>10</max-value>
+        </values>
+      </between>
+      <message>The NH3 value is between 6 and 10</message>
+    </trigger>
+  </triggers>
+
+  <triggers type="PH">
+    <trigger status="disabled" condition="between">
+      <between>
+        <values>
+          <min-value>3</min-value>
+          <max-value>5</max-value>
+        </values>
+      </between>
+      <message>The PH value is between 3 and 5</message>
+    </trigger>
+    <trigger status="enabled" condition="equal-to">
+      <equal-to>
+        <value>7</value>
+      </equal-to>
+      <message>The PH value is equal to 7</message>
+    </trigger>
+  </triggers>
+
+  <triggers type="CI2">
+    <trigger status="enabled" condition="greater-than">
+      <greater-than>
+        <value>5</value>
+      </greater-than>
+      <message>The CI2 value is greater than 5</message>
+    </trigger>
+  </triggers>
+</trigger-rules>

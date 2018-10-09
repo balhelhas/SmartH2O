@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartH2O_DU", "SmartH2O_DU\SmartH2O_DU.csproj", "{268121F4-C59B-4775-B3C6-57A491581840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartH2O_Alarm", "SmartH2O_Alarm\SmartH2O_Alarm.csproj", "{6CDB5E35-57D0-4CD0-B279-DFA34D96005A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartH2O_DLog", "SmartH2O_DLog\SmartH2O_DLog.csproj", "{A94EC8D5-8BB2-4BDB-A31D-4B321464E81E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9B6C30F8-F6AF-4DC9-8231-5066B67BC897} = {9B6C30F8-F6AF-4DC9-8231-5066B67BC897}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartH2O_Service", "SmartH2O_Service\SmartH2O_Service.csproj", "{9B6C30F8-F6AF-4DC9-8231-5066B67BC897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartH2O_SeeApp", "SmartH2O_SeeApp\SmartH2O_SeeApp.csproj", "{1B2FEC37-FE19-4A14-A1DC-00B46D6D79B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9B6C30F8-F6AF-4DC9-8231-5066B67BC897} = {9B6C30F8-F6AF-4DC9-8231-5066B67BC897}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{268121F4-C59B-4775-B3C6-57A491581840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268121F4-C59B-4775-B3C6-57A491581840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268121F4-C59B-4775-B3C6-57A491581840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268121F4-C59B-4775-B3C6-57A491581840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDB5E35-57D0-4CD0-B279-DFA34D96005A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDB5E35-57D0-4CD0-B279-DFA34D96005A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDB5E35-57D0-4CD0-B279-DFA34D96005A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDB5E35-57D0-4CD0-B279-DFA34D96005A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94EC8D5-8BB2-4BDB-A31D-4B321464E81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94EC8D5-8BB2-4BDB-A31D-4B321464E81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94EC8D5-8BB2-4BDB-A31D-4B321464E81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94EC8D5-8BB2-4BDB-A31D-4B321464E81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6C30F8-F6AF-4DC9-8231-5066B67BC897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6C30F8-F6AF-4DC9-8231-5066B67BC897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6C30F8-F6AF-4DC9-8231-5066B67BC897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6C30F8-F6AF-4DC9-8231-5066B67BC897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2FEC37-FE19-4A14-A1DC-00B46D6D79B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2FEC37-FE19-4A14-A1DC-00B46D6D79B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2FEC37-FE19-4A14-A1DC-00B46D6D79B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2FEC37-FE19-4A14-A1DC-00B46D6D79B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
