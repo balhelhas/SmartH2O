@@ -1,4 +1,4 @@
 # SmartH2O
 System Integration Project
 
-[Project Structure](./project_structure.png)
+![Project Structure](./project_structure.png)
